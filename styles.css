@@ -1,0 +1,182 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styling */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Showcase Section */
+#showcase {
+    background: url('showcase.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#showcase .button {
+    display: inline-block;
+    color: #fff;
+    background: #e8491d;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Main Section Styling */
+main {
+    padding: 20px 0;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #35424a;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+section img {
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    margin: auto 200px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+}
+
+.service img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.service h3 {
+    color: #35424a;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+}
+
+/* Testimonials Section */
+.testimonial {
+    background: #fff;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    text-align: center;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Footer Styling */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer .social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer .social img {
+    width: 20px;
+}
